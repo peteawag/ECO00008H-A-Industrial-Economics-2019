@@ -1,0 +1,15 @@
+\documentclass[]{standalone}
+\usepackage{setspace,booktabs,multirow}
+\renewcommand{\baselinestretch}{1.5}
+\begin{document}
+\begin{tabular}{ c  c |c |c c c |c |ccc |c |c}
+  & \multicolumn{3}{c}{Europe} && \multicolumn{3}{c}{U.S.} && \multicolumn{3}{c}{Uniform} \\ 
+\cmidrule{2-4} \cmidrule{6-8} \cmidrule{9-12}
+
+ & {\centering $q_E^*$}& $p_E^*$ & $CS_E$ &&$q_U^*$ & $p_U^*$ & $CS_U$ && $q^*$ & $p^*$ & $CS^*$\\
+\midrule
+$c=10$ & 1.75 & 17 & 6.125 &&3.25 & 23 & 21.125 && 5 & 20&100  \\
+$c=14$ & 1.25 & 19 & 3.125 && 2.75 & 25 & 15.125 && 4 & 22 & 64 \\
+$c=20$ & 0.5 & 22 & 8 && 2 & 28 & 8 && 2 & 28 & 8 \\ 
+\end{tabular}
+\end{document}
